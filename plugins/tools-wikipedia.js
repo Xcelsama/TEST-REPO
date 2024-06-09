@@ -20,7 +20,7 @@ ${resulw}`)
 }
 }
 handler.help = ['wikipedia']
-handler.tags = ['tools']
+handler.tags = ['internet']
 handler.command = ['wiki','wikipedia'] 
 
 
