@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     })
     m.reply(`Your message has been sent to the owner.`)
 }
-handler.help = ['report', 'request'].map(v => v + ' <msg>')
+handler.help = ['report'].map(v => v + ' <msg>')
 handler.tags = ['info']
-handler.command = /^(report|request)$/i
+handler.command = /^(report)$/i
 export default handler
