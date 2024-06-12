@@ -4,7 +4,9 @@ var handler = async (m, { conn, text, usedPrefix, command }) => {
     const res = await googleImage(text)
     let image = res.getRandom()
     let link = image
-    conn.sendFile(m.chat, link, 'google.jpg', `*©𝚂𝚃𝙰𝚁-𝙼𝙳-𝚅𝟸* |https://github.com/Xcelsama/STAR-MD-V2|
+    conn.sendFile(m.chat, link, 'google.jpg', `| *©𝚂𝚃𝙰𝚁-𝙼𝙳-𝚅𝟸* | 
+
+|https://github.com/Xcelsama/STAR-MD-V2|
 🔎 *Result:* ${text}
 🌎 *Source:* Google 
 `,m)
