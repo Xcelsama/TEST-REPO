@@ -25,7 +25,7 @@ Zodiac : ${zodiac}
 `.trim()
     m.reply(teks)
 }
-handler.tags = ['tools']
+handler.tags = ['new']
 
 handler.command = /^zodia[kc]$/i
 
