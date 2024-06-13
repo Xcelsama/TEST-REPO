@@ -51,6 +51,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.botname = '©STAR-MD-V2'
+global.starbot = '©ＳＴＡＲ-ＭＤ-Ｖ２'
 global.premium = 'true'
 global.packname = '©𝚂𝚃𝙰𝚁-𝙼𝙳' 
 global.author = '@𝙴𝚡𝚌𝚎𝚕' 
