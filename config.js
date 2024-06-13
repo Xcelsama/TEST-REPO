@@ -65,6 +65,8 @@ global.fglog = 'STAR.jpg'
 global.thumb = fs.readFileSync('./STAR.jpg')
 global.shizokeys = 'shizo'
 
+// Moderator 
+global.developer = 'https://wa.me/+2347045035241' //contact
 
 global.wait = '*🕒 _STAR IS  LOADING WAIT..._*\n*▰▰▰▱▱▱▱▱ 💫*'
 global.rwait = '🔜'
