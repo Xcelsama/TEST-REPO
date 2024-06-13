@@ -1,9 +1,9 @@
 let handler = m => m
 handler.all = async function (m, conn) {
-    var vn = ""
+    var vn = "https://github.com/Xcelsama/STAR-V2/blob/main/Assets/mp3/STAR.mp3"
     let url = "https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X"
     let murl = "https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X"
-    let hash = global.
+    let hash = global.starbot
     let img = "https://i.imgur.com/8ltcrED.jpeg"
     let num = "2347045035241"
 
