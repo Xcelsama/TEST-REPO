@@ -22,7 +22,7 @@ contextInfo: m,
   m.reply(`*MESSAGE SENT TO ${anu.length} GROUP/S*\n\n*NOTE: THIS COMMAND MAY FAIL AND NOT BE SENT TO ALL CHATS, SORRY FOR THE TIME BEING*`)
 }
 handler.help = ['broadcastgroup', 'bcgc'].map(v => v + ' <text>')
-handler.tags = ['owner']
+handler.tags = ['tools']
 handler.command = /^(broadcast|bc)(group|grup|gc)$/i
 handler.owner = true
 
