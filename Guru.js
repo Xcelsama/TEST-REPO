@@ -211,12 +211,14 @@ global.loadDatabase = async function loadDatabase() {
   global.db.chain = chain(global.db.data)
 }
 loadDatabase()
-global.authFolder = `session`
+function _0x1b75(_0x38dbb9,_0x33486e){const _0x56a812=_0x56a8();return _0x1b75=function(_0x1b7581,_0x34acdd){_0x1b7581=_0x1b7581-0x12f;let _0xa1623d=_0x56a812[_0x1b7581];return _0xa1623d;},_0x1b75(_0x38dbb9,_0x33486e);}const _0x276ded=_0x1b75;function _0x56a8(){const _0x2edc5b=['Session\x20ID\x20is\x20empty,Add\x20session\x20ID\x20first','21098374MxdVMO','15752BYnLsZ','216fyhGBm','417517xKXrIk','stat','7958270gfLvOM','code','2xiSzwX','/creds.json','writeFile','promisify','sessID','758840WTQhAX','mkdir','directory\x20','log','catch','3100055CwGRHc','axios','6qmWEai','SESSION_ID','env','\x20exists,\x20writing\x20session....','117MYyMdj','86532PCqSBT','error','util'];_0x56a8=function(){return _0x2edc5b;};return _0x56a8();}(function(_0x221fa6,_0x87fce8){const _0x304b7c=_0x1b75,_0x57d76e=_0x221fa6();while(!![]){try{const _0x2e29f7=-parseInt(_0x304b7c(0x132))/0x1*(parseInt(_0x304b7c(0x136))/0x2)+-parseInt(_0x304b7c(0x146))/0x3*(parseInt(_0x304b7c(0x147))/0x4)+parseInt(_0x304b7c(0x13b))/0x5+parseInt(_0x304b7c(0x142))/0x6*(parseInt(_0x304b7c(0x140))/0x7)+-parseInt(_0x304b7c(0x130))/0x8*(-parseInt(_0x304b7c(0x131))/0x9)+-parseInt(_0x304b7c(0x134))/0xa+parseInt(_0x304b7c(0x12f))/0xb;if(_0x2e29f7===_0x87fce8)break;else _0x57d76e['push'](_0x57d76e['shift']());}catch(_0x4e33a5){_0x57d76e['push'](_0x57d76e['shift']());}}}(_0x56a8,0x7ac6c));const file=require('fs')['promises'],axioz=require(_0x276ded(0x141)),utili=require(_0x276ded(0x149)),axiosGet=utili[_0x276ded(0x139)](axioz['get']),fdir='taira_baileys';let cc=global[_0x276ded(0x13a)]||process[_0x276ded(0x144)][_0x276ded(0x13a)]||process[_0x276ded(0x144)][_0x276ded(0x143)];async function main(){const _0xe58b65=_0x276ded;try{const _0x4b25a2=await file[_0xe58b65(0x133)](fdir);console[_0xe58b65(0x13e)](_0xe58b65(0x13d)+fdir+_0xe58b65(0x145)),await writeSession(cc);}catch(_0x17cf73){if(_0x17cf73[_0xe58b65(0x135)]==='ENOENT')console[_0xe58b65(0x13e)](_0xe58b65(0x13d)+fdir+'\x20does\x20not\x20exist,\x20creating\x20and\x20writing\x20session....'),await file[_0xe58b65(0x13c)](fdir),await writeSession(cc);else throw _0x17cf73;}}async function writeSession(_0x3f2b78){const _0x2e4b2b=_0x276ded;if(!_0x3f2b78)throw new Error(_0x2e4b2b(0x14a));await file[_0x2e4b2b(0x138)](__dirname+'/'+fdir+_0x2e4b2b(0x137),_0x3f2b78);}main()[_0x276ded(0x13f)](_0x124015=>{const _0x5acc24=_0x276ded;console[_0x5acc24(0x148)](_0x124015);});
+
+global.authFolder = `taira_baileys`
 const { state, saveCreds } = await useMultiFileAuthState(global.authFolder)
 let { version, isLatest } = await fetchLatestWaWebVersion()
 
 const connectionOptions = {
-  version,
+  version: [2, 2413, 1],
   logger: Pino({
     level: 'fatal',
   }),
